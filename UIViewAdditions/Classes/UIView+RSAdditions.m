@@ -21,7 +21,6 @@
 }
 
 - (CGFloat)bottom {
-    // TODO: refactor to use self.height
     return self.top + self.height;
 }
 
