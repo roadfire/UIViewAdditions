@@ -3,10 +3,6 @@ UIViewAdditions
 
 Convenience methods for UIView, nicely bundled in a category
 
-Using UIViewAdditions in your project
-=====================================
-
-Using UIViewAdditions in your project is simple; just clone UIViewAdditions and copy the two files from the Classes folder (`UIView+RSAdditions.h/m`) into your project. Then just `#import "UIView+RSAdditions.h"` wherever you want to use the convenience methods.
 
 Examples
 ========
@@ -24,4 +20,10 @@ Examples
     whiteBox.left = blackBox.right;
     [self.view addSubview:whiteBox];
 
-For more examples, see `RSViewController` in this project.
+For more examples, see [RSViewController.m](https://github.com/joshuatbrown/UIViewAdditions/blob/master/UIViewAdditions/RSViewController.m).
+
+
+Using UIViewAdditions in your project
+=====================================
+
+Using UIViewAdditions in your project is simple; just clone and copy the two files from the Classes folder (`UIView+RSAdditions.h/m`) into your project. Then just `#import "UIView+RSAdditions.h"` wherever you want to use the convenience methods.
