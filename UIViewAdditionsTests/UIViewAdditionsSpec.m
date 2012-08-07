@@ -64,6 +64,33 @@ describe(@"UIViewAdditionsSpec", ^{
         [[theValue(view.width) should] equal:theValue(50)];
     });
     
+    it(@"should get the centerX", ^{
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 50, 100)];
+        [[theValue(view.centerX) should] equal:theValue(35)];
+    });
+    
+    it(@"should set the centerX", ^{
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 10, 50, 100)];
+        view.centerX = 30;
+        [[theValue(view.centerX) should] equal:theValue(30)];
+        [[theValue(view.left) should] equal:theValue(5)];
+        [[theValue(view.width) should] equal:theValue(50)];
+    });
+
+    it(@"should get the centerY", ^{
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 10, 50, 100)];
+        [[theValue(view.centerY) should] equal:theValue(60)];
+    });
+    
+    it(@"should set the centerY", ^{
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 10, 50, 100)];
+        view.centerY = 65;
+        [[theValue(view.centerY) should] equal:theValue(65)];
+        [[theValue(view.top) should] equal:theValue(15)];
+        [[theValue(view.height) should] equal:theValue(100)];
+    });
+    
+
     it(@"should set the height", ^{
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(7, 10, 50, 100)];
         view.height = 9;

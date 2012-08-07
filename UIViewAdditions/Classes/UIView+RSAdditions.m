@@ -46,6 +46,22 @@
     self.left = right - self.width;
 }
 
+- (CGFloat)centerX {
+    return self.center.x;
+}
+
+- (void)setCenterX:(CGFloat)centerX {
+    self.center = CGPointMake(centerX, self.centerY);
+}
+
+- (CGFloat)centerY {
+    return self.center.y;
+}
+
+- (void)setCenterY:(CGFloat)centerY {
+    self.center = CGPointMake(self.centerX, centerY);
+}
+
 - (CGFloat)height {
     return self.frame.size.height;
 }

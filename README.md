@@ -4,8 +4,7 @@ UIViewAdditions
 Convenience methods for UIView, nicely bundled in a category
 
 
-Examples
-========
+## Examples
 
     UIView *blackBox = [[UIView alloc] init];
     blackBox.backgroundColor = [UIColor blackColor];
@@ -23,7 +22,6 @@ Examples
 For more examples, see [RSViewController.m](https://github.com/joshuatbrown/UIViewAdditions/blob/master/UIViewAdditions/RSViewController.m).
 
 
-Using UIViewAdditions in your project
-=====================================
+## Getting Started
 
-Using UIViewAdditions in your project is simple; just clone and copy the two files from the Classes folder (`UIView+RSAdditions.h/m`) into your project. Then just `#import "UIView+RSAdditions.h"` wherever you want to use the convenience methods.
+Using UIViewAdditions in your project is simple; just copy the two files from the Classes folder (`UIView+RSAdditions.h/m`) into your project. Then just `#import "UIView+RSAdditions.h"` in your classes.
