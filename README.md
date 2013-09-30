@@ -1,7 +1,25 @@
 UIViewAdditions
 ===============
 
-Convenience methods for UIView, nicely bundled in a category
+Convenience methods for UIView, nicely bundled in a category.
+
+Adds getters and setters to UIView for the following:
+
+`top` - the top of the view (`frame.origin.y`)
+
+`bottom` - the bottom of the view (`frame.origin.y + frame.size.height`)
+
+`left` - the left side of the view (`frame.origin.x`)
+
+`right` - the right side of the view (`frame.origin.x + frame.size.width`)
+
+`centerX` - the center x position of the view (`center.x`)
+
+`centerY` - the center y position of the view (`center.y`)
+
+`height` - the height of the view (`frame.size.height`)
+
+`width` - the width of the view (`frame.size.width`)
 
 
 ## Examples
