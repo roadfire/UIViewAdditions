@@ -1,6 +1,8 @@
 UIViewAdditions
 ===============
 
+[![Build Status](https://travis-ci.org/roadfire/UIViewAdditions.png)](https://travis-ci.org/roadfire/UIViewAdditions)
+
 Convenience methods for UIView, nicely bundled in a category.
 
 Adds getters and setters to UIView for the following:
